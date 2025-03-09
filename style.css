@@ -8,7 +8,6 @@
 body {
   display: flex;
   flex-direction: column;
-  height: 100vh;
 }
 
 header {
@@ -51,14 +50,53 @@ header,
 }
 
 .center-content {
-  flex-basis: 70vw;
+  padding: 10px;
+  flex-basis: 60vw;
   display: flex;
   justify-content: space-between;
 }
-
+.header-text,
+.hero-img-container {
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+.hero-text {
+  flex-basis: 45%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 .hero-main-text {
   font-size: 48px;
   font-weight: 900;
+}
+.hero-p {
+  font-weight: 300;
+}
+.hero-btn {
+  color: #f9faf8;
+  background-color: #3882f6;
+  border: none;
+  border-radius: 10px;
+  width: 100px;
+  height: 25px;
+  margin-top: 20px;
+  align-self: flex-start;
+}
+.hero-img-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hero-img-placeholder {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #8d8d8d;
+  margin-top: 30px;
+  height: 200px;
+  width: 400px;
 }
 .info-container {
   display: flex;
