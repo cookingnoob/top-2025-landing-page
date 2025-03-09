@@ -98,31 +98,67 @@ header,
   height: 200px;
   width: 400px;
 }
+
+.info-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+.info-section > h2 {
+  margin-bottom: 30px;
+  font-size: 36px;
+  font-weight: 900;
+  color: #1f2937;
+}
 .info-container {
   display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
 }
 .info-bloc {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  flex-basis: 200px;
+  flex-basis: 150px;
+}
+.info-bloc > p {
+  text-align: center;
+  font-weight: 200;
 }
 .blue-square {
-  height: 100px;
-  width: 100px;
-  border: 1px solid #3882f6;
+  height: 150px;
+  width: 150px;
+  border: 2px solid #3882f6;
   border-radius: 20px;
 }
+
 .quote {
   background-color: #e5e7eb;
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+.quote-container {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  flex-basis: 790px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
 }
 .quote-main-text {
   font-size: 36px;
   font-style: italic;
+  color: #1f2937;
+  font-weight: 200;
+}
+.quote-author {
+  align-self: flex-end;
+  font-weight: 900;
   color: #1f2937;
 }
 .cta {
